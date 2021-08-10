@@ -1,0 +1,32 @@
+{
+  "name": "helpon",
+  "version": "1.0.0",
+  "description": "Helpon - PDM 2020.1 - IFPB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchlexe/helpon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mchlexe/helpon/issues"
+  },
+  "homepage": "https://github.com/mchlexe/helpon#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.5",
+    "mongoose-sequence": "^5.3.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.12",
+    "yup": "^0.32.9"
+  }
+}
